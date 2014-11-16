@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <title>My HTML File</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="js/controller/controllers.js"></script>
 </head>
-<body ng-controller="HomeController">
+<body style="margin: 0 40px;" ng-controller="HomeController">
 
+  <nav class="navbar navbar-inverse" role="navigation">
+  </nav>
   <div id="top" style="">Top 5 List Handler</div>
   <div id="bottom" style="">
     <div ng-repeat="painter in painters">
@@ -18,5 +18,8 @@
     </div>
   </div>
 
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controller/controllers.js"></script>
 </body>
 </html>
