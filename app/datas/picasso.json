@@ -1,0 +1,71 @@
+{
+  Type: 'New',
+  Oeuvre: [
+    {
+      Id: 0,
+      Name: 'Autoportrait',
+      Description: 'L’Autoportrait peint par Picasso en 1901 fait partie de la période bleue du peintre de 1901 à 1903. Cette période est marquée par la disparition d’un ami très proche du peintre, Carlos Casagemas, après son suicide Picasso plonge dans un univers sombre et pesant. ',
+      Url: 'piccaso/Autoportrait.jpg’
+    },
+    {
+      Id: 1,
+      Name: 'Science et Charité',
+      Description: 'Une grande maturité et un sens inné de la composition. La mise perspective du monde vivant (cf les murs et personnages) tranche avec le traitement axonométrique* du lit qui préfigure la mort.',
+      Url: 'piccaso/Science et Charité.jpg'
+    },
+    {
+      Id: 2,
+      Name: ' La Chambre bleue',
+      Description: 'DÉCOUVERTE La National Gallery Of Art de Washington a révélé, à la lumière infrarouge, le portrait d'un homme derrière la toile du peintre espagnol.',
+      Url: ''piccaso/La Chambre bleue.jpg'
+    },
+    {
+      Id: 3,
+      Name: 'La Vie ',
+      Description: 'Cette œuvre marque un point culminant de la période bleue, la Vie constitue également un tableau capital dans l’œuvre de Picasso. Plusieurs tentations, pour être esthétiques, n’en reflètent pas moins l’état d’esprit de leur auteur, s’y retrouvent confrontés et de sa vision et de sa conception de la condition humaine. ',
+      Url: ''piccaso/La Vie .jpg'
+    },
+    {
+      Id: 4,
+      Name: 'Trois Danseurs',
+      Description: 'Le tableau montre trois danseurs, l un à la droite étant à peine visible. Une danse macabre se déroule, avec la danseuse sur la gauche ayant la tête penchée à un angle quasi-impossible. ',
+      Url: ''piccaso/Trois Danseurs.jpg'
+    },
+    {
+      Id: 5,
+      Name: 'La femme qui pleure',
+      Description: 'Il est en petits morceaux, c'est vrai, mais la forme des pièces est moins régulière que dans un jeu de puzzle. On dirait qu'elles ont été faites un peu n'importe comment, et l'on n'est pas sûr qu'elles soient bien mises à leur place.',
+      Url: ''piccaso/La femme qui pleure.jpg'
+    },
+    {
+      Id: 6,
+      Name: 'Deux femmes courant sur la plage',
+      Description: 'Deux femmes courant sur la plage est un tableau de Picasso peint pendant sa période néoclassique en 1922. Deux femmes courant sur la plage représente deux femmes fortes, à moitié nues, courant le long de la berge.',
+      Url: ''piccaso/Deux femmes courant sur la plage.jpg'
+    },
+    {
+      Id: 7,
+      Name: 'Minotauromachie ',
+      Description: 'En 1935 dans une eau-forte intitulée : « La Minotaureaumachie », Picasso exécute une représentation du Minotaure emprunté à la mythologie grecque.',
+      Url: ''piccaso/Minotauromachie .jpg'
+    },
+    {
+      Id: 8,
+      Name: 'Les Demoiselles d'Avignon',
+      Description: 'Les demoiselles d’Avignon est l’une des œuvres les plus célèbres de Picasso. Pour peindre cette œuvre, Picasso fait preuve d’innovation. Cette œuvre suscite des réactions passionnées, elle est caractérisée par un langage géométrique et par beaucoup de points de vue. C’est le point de départ du cubisme.',
+      Url: ''piccaso/Les Demoiselles d'Avignon.gif'
+    },
+    {
+      Id: 9,
+      Name: 'Les Baigneuses ',
+      Description: 'Picasso passe son voyage de noces avec Olga à Biarritz. Au bord de la mer où il ne manquera plus de venir passer les périodes estivales, Picasso retrouve le thème du bain et des baigneuses qu'il avait découvert chez Cézanne mais aussi dans l'œuvre d'Ingres. ',
+      Url: ''piccaso/Les Baigneuses .jpg'
+    },
+    {
+      Id: 10,
+      Name: 'Le Charnier ',
+      Description: 'Il a été réalisé entre 1944 et 1945 par Pablo Picasso un artistepeintre d'origine espagnole née en 1881 et décédé en 1973.',
+      Url: ''piccaso/Le Charnier .jpg'
+    }
+  ]
+}
