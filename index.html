@@ -4,22 +4,29 @@
   <meta charset="utf-8">
   <title>My HTML File</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/unslider/unslider.css">
 </head>
-<body style="margin: 0 40px;" ng-controller="HomeController">
-
+<body ng-controller="HomeController" style="overflow: hidden">
   <nav class="navbar navbar-inverse" role="navigation">
   </nav>
-  <div id="top" style="">Top 5 List Handler</div>
-  <div id="bottom" style="">
-    <div ng-repeat="painter in painters">
-      <span>
-        {{painter.name}}
-      </span>
+
+  <div id="top" class="banner">
+    <ul id="gallery">
+      <li ng-repeat="picture in TopFive" on-last-repeat>
+        <img ng-src="img/{{ picture.Url }}" alt="{{ picture.Name }}" />
+      </li>
+    </ul>
+  </div>
+
+  <div id="bottom">
+    <div ng-repeat="painter in Painters">
+      <span>{{ painter }}</span>
     </div>
   </div>
 
-
   <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/unslider/unslider.min.js"></script>
   <script src="js/controller/controllers.js"></script>
 </body>
 </html>
