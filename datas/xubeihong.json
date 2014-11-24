@@ -1,71 +1,71 @@
 {
-  Type: 'New',
-  Oeuvre: [
+  "Type": "New",
+  "Oeuvre": [
     {
-      Id: 0,
-      Name: '战马图',
-      Description: '作品无背景，画家以粗犷豪放的线条，在雪白的宣纸上绘一匹精神抖擞挺立的骏马。',
-      Url: 'xubeihong/战马图.jpg’
+      "Id": 0,
+      "Name": "战马图",
+      "Description": "作品无背景，画家以粗犷豪放的线条，在雪白的宣纸上绘一匹精神抖擞挺立的骏马。",
+      "Url": "xubeihong/战马图.jpg"
     },
     {
-      Id: 1,
-      Name: '双喜图',
-      Description: '喜鹊是中国传统的吉祥题材，在徐悲鸿笔下，通常具有人格化的意义。’,
-      Url: 'xubeihong/双喜图.jpg'
+      "Id": 1,
+      "Name": "双喜图",
+      "Description": "喜鹊是中国传统的吉祥题材，在徐悲鸿笔下，通常具有人格化的意义。",
+      "Url": "xubeihong/双喜图.jpg"
     },
     {
-      Id: 2,
-      Name: '八骏图',
-      Description: '以周穆王八骏为题材，八匹马形态各异，飘逸灵动，为不可多得的珍品。',
-      Url: 'xubeihong/八骏图.jpg’
+      "Id": 2,
+      "Name": "八骏图",
+      "Description": "以周穆王八骏为题材，八匹马形态各异，飘逸灵动，为不可多得的珍品。",
+      "Url": "xubeihong/八骏图.jpg"
     },
     {
-      Id: 3,
-      Name: ‘yu’gongyishan,
-      Description: '《愚公移山图》极具现实意义。它作于1940年，正值中国人民抗日的危急时刻，画家意在以形象生动的艺术语言表达抗日民众的决心和毅力，鼓舞人民大众去争取最后的胜利。',
-      Url: 'xubeihong/yugongyishan.jpg’
+      "Id": 3,
+      "Name": "yu'gongyishan",
+      "Description": "《愚公移山图》极具现实意义。它作于1940年，正值中国人民抗日的危急时刻，画家意在以形象生动的艺术语言表达抗日民众的决心和毅力，鼓舞人民大众去争取最后的胜利。",
+      "Url": "xubeihong/yugongyishan.jpg"
     },
     {
-      Id: 4,
-      Name: '田横五百壮士',
-      Description: '画面选取了田横与五百壮士诀别的场面，着重刻划了不屈的激情，表现出富贵不能淫、威武不能屈的鲜明主题。',
-      Url: 'xubeihong/田横五百壮士.jpg'
+      "Id": 4,
+      "Name": "田横五百壮士",
+      "Description": "画面选取了田横与五百壮士诀别的场面，着重刻划了不屈的激情，表现出富贵不能淫、威武不能屈的鲜明主题。",
+      "Url": "xubeihong/田横五百壮士.jpg"
     },
     {
-      Id: 5,
-      Name: '双猫立轴',
-      Description: '猫是徐悲鸿特别喜爱的题材，如他画的马一样意气勃发，气韵生动。',
-      Url: 'xubeihong/双猫立轴.jpg'
+      "Id": 5,
+      "Name": "双猫立轴",
+      "Description": "猫是徐悲鸿特别喜爱的题材，如他画的马一样意气勃发，气韵生动。",
+      "Url": "xubeihong/双猫立轴.jpg"
     },
     {
-      Id: 6,
-      Name: '鸡立轴',
-      Description: '徐悲鸿画竹鸡，凡数十幅，又大又精者此幅当属其一，且造型准确，洵为难得。图中雄鸡雄健形神兼备，惟妙惟肖，青竹坚毅挺拔，粗细交辉。雄鸡寓意吉祥如意，青竹象征长青平安，乃有吉祥平安之意。此画是徐悲鸿将自己的爱国情感堪托於动物之上的精品之作。',
-      Url: 'xubeihong/鸡立轴.jpg'
+      "Id": 6,
+      "Name": "鸡立轴",
+      "Description": "徐悲鸿画竹鸡，凡数十幅，又大又精者此幅当属其一，且造型准确，洵为难得。图中雄鸡雄健形神兼备，惟妙惟肖，青竹坚毅挺拔，粗细交辉。雄鸡寓意吉祥如意，青竹象征长青平安，乃有吉祥平安之意。此画是徐悲鸿将自己的爱国情感堪托於动物之上的精品之作。",
+      "Url": "xubeihong/鸡立轴.jpg"
     },
     {
-      Id: 7,
-      Name: '竹林仕女',
-      Description: '題作「君看竹搖處，猶有對影人，壬午之秋悲鴻作」',
-      Url: 'xubeihong/竹林仕女.jpg'
+      "Id": 7,
+      "Name": "竹林仕女",
+      "Description": "題作「君看竹搖處，猶有對影人，壬午之秋悲鴻作」",
+      "Url": "xubeihong/竹林仕女.jpg"
     },
     {
-      Id: 8,
-      Name: '奔马图',
-      Description: '在此幅画中，徐悲鸿运用饱含奔放的墨色勾勒头、颈、胸、腿等大转折部位，并以干笔扫出鬃尾，使浓淡干湿的变化浑然天成。',
-      Url: 'xubeihong/奔马图.jpg'
+      "Id": 8,
+      "Name": "奔马图",
+      "Description": "在此幅画中，徐悲鸿运用饱含奔放的墨色勾勒头、颈、胸、腿等大转折部位，并以干笔扫出鬃尾，使浓淡干湿的变化浑然天成。",
+      "Url": "xubeihong/奔马图.jpg"
     },
     {
-      Id: 9,
-      Name: ‘梅花’,
-      Description: '此图绘一株粗大的腊梅，繁枝密蕊；主干以粗笔直接画出，水墨淋漓，在以白粉点燃梅花，设色清新',
-      Url: 'xubeihong/梅花.jpg’
+      "Id": 9,
+      "Name": "梅花",
+      "Description": "此图绘一株粗大的腊梅，繁枝密蕊；主干以粗笔直接画出，水墨淋漓，在以白粉点燃梅花，设色清新",
+      "Url": "xubeihong/梅花.jpg"
     },
     {
-      Id: 10,
-      Name: 'girl',
-      Description: 'The girl with cat.’,
-      Url: 'xubeihong/girl.jpg'
+      "Id": 10,
+      "Name": "girl",
+      "Description": "The girl with cat.",
+      "Url": "xubeihong/girl.jpg"
     }
   ]
 }

@@ -14,6 +14,15 @@ galleryApp.directive('onLastRepeat', function () {
 
   $http.get('datas/home.json').success(function(data) {
     $scope.TopFive= data.TopFive;
-    $scope.Painters = data.Painters;
+    $scope.Painters = [];
+
+    angular.forEach (data.Painters, function (value, key) {
+      $http.get('datas/' + value + '.json').success(function(data) {
+        $scope.Painters.push({
+          Name : value,
+          Contents : data
+        });
+      });
+    });
   });
 });
