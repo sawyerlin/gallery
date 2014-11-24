@@ -19,10 +19,13 @@
   </div>
 
   <div id="bottom">
-    <div ng-repeat="painter in Painters">
-      <span>{{ painter }}</span>
+    <div ng-repeat="painter in Painters" style="float:left; width: 100%">
+      <div>{{ painter.Name }}</div>
+      <div>{{ painter.Contents.Type }}</div>
+      <div ng-repeat="content in painter.Contents.Oeuvre" >
+        <img ng-src="img/{{ content.Url }}" alt="{{ picture.Name }}" class="img-rounded" style="width: 200px; height: 240px; float: left;" />
+      </div>
     </div>
-  </div>
 
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
