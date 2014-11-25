@@ -27,5 +27,5 @@
     }
   ],
   "Painters": ["davinci", "monet", "picasso", "vangogh", "xubeihong"],
-  "Kind": ["New", "Classic"]
+  "Kind": ["Moderne", "Classique"]
 }

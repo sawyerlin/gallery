@@ -7,7 +7,28 @@
   <link rel="stylesheet" href="bower_components/unslider/unslider.css">
 </head>
 <body ng-controller="HomeController" style="overflow: hidden">
-  <nav class="navbar navbar-inverse" role="navigation">
+  <nav class="navbar navbar-inverse" role="navigation" style="border-radius: 0; margin: 0;">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Filtrage<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li ng-repeat="kind in Kind">
+              <a href="#">{{ kind }}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
   </nav>
 
   <div id="top" class="banner">
@@ -18,17 +39,26 @@
     </ul>
   </div>
 
-  <div id="bottom">
-    <div ng-repeat="painter in Painters" style="float:left; width: 100%">
-      <div>{{ painter.Name }}</div>
-      <div>{{ painter.Contents.Type }}</div>
-      <div ng-repeat="content in painter.Contents.Oeuvre" >
-        <img ng-src="img/{{ content.Url }}" alt="{{ picture.Name }}" class="img-rounded" style="width: 200px; height: 240px; float: left;" />
+  <div class="container">
+    <div id="bottom">
+      <div ng-repeat="painter in Painters" style="float:left; width: 100%">
+        <h3><div>{{ painter.Name }}</div></h3>
+        <a style="display: block; float: right; margin-right: 5px;">encore plus</a>
+        <div style="width: 100%; height: 1px; background-color: #cccccc; margin-left: -5px; float: left;"></div>
+        <div class="row" style="margin-top: 5px; float: left;">
+          <div ng-repeat="content in painter.Contents.Oeuvre" style="float:left; margin-left: 10px;">
+            <a href="#" class="thumbnail" style="width: 171px; height: 190px">
+              <img ng-src="img/{{ content.Url }}" alt="{{ picture.Name }}" style="width:171px; height:180px;" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/unslider/unslider.min.js"></script>
   <script src="js/controller/controllers.js"></script>
 </body>

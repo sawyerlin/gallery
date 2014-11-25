@@ -13,7 +13,8 @@ galleryApp.directive('onLastRepeat', function () {
   });
 
   $http.get('datas/home.json').success(function(data) {
-    $scope.TopFive= data.TopFive;
+    $scope.TopFive = data.TopFive;
+    $scope.Kind = data.Kind;
     $scope.Painters = [];
 
     angular.forEach (data.Painters, function (value, key) {
