@@ -5,7 +5,6 @@ galleryApp.directive('onLastRepeat', function () {
     if (scope.$last) setTimeout(function () {
       scope.$emit('onRepeatLast', element, attrs);
     }, 1);
-  
   }
 }).controller('HomeController', function($scope, $http) {
   $scope.$on('onRepeatLast', function(scope, element, attrs) {
@@ -16,14 +15,20 @@ galleryApp.directive('onLastRepeat', function () {
     $scope.TopFive = data.TopFive;
     $scope.Kind = data.Kind;
     $scope.Painters = [];
+    $scope.Filter = "Moderne";
+    $scope.ChangeFilter = function (filter) {
+      $scope.Filter = filter;
+    };
 
     angular.forEach (data.Painters, function (value, key) {
       $http.get('datas/' + value + '.json').success(function(data) {
-        $scope.Painters.push({
+        var painter = {
           Name : value,
           Contents : data
-        });
+        };
+        $scope.Painters.push(painter);
       });
     });
+
   });
 });
