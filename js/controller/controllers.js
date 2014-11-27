@@ -22,6 +22,7 @@ galleryApp.directive('onLastRepeat', function () {
 
     angular.forEach (data.Painters, function (value, key) {
       $http.get('datas/' + value + '.json').success(function(data) {
+        data.Oeuvre= data.Oeuvre.slice(0, 6);
         var painter = {
           Name : value,
           Contents : data
@@ -29,6 +30,7 @@ galleryApp.directive('onLastRepeat', function () {
         $scope.Painters.push(painter);
       });
     });
-
   });
+}).controller('DetailController', function($scope, $http) {
+
 });

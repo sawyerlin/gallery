@@ -2,7 +2,7 @@
 <html lang="en" ng-app="galleryApp">
 <head>
   <meta charset="utf-8">
-  <title>My HTML File</title>
+  <title>Gallery</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="bower_components/unslider/unslider.css">
 </head>
@@ -41,8 +41,13 @@
   <div class="container">
     <div id="bottom">
       <div ng-repeat="painter in Painters | filter:Filter " style="float:left; width: 100%">
-        <h3><div>{{ painter.Name }}<small style="margin-left: 10px;" >{{ painter.Contents.Type }}</small></div></h3>
-        <a style="display: block; float: right; margin-right: 5px;">encore plus</a>
+        <h3>
+          <div>
+            {{ painter.Name }}
+            <small style="margin-left: 10px;" >{{ painter.Contents.Type }}</small>
+            <a class="btn btn-primary btn-xs" style="float: right;">Encore plus</a>
+          </div>
+        </h3>
         <div style="width: 100%; height: 1px; background-color: #cccccc; margin-left: -5px; float: left;"></div>
         <div class="row" style="margin-top: 5px; float: left;">
           <div ng-repeat="content in painter.Contents.Oeuvre" style="float:left; margin-left: 10px;">
