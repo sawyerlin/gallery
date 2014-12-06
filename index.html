@@ -30,12 +30,31 @@
       </ul>
   </nav>
 
-  <div id="top" class="banner">
-    <ul id="gallery">
-      <li ng-repeat="picture in TopFive" on-last-repeat>
-        <img ng-src="img/{{ picture.Url }}" alt="{{ picture.Name }}" />
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li ng-repeat="picture in TopFive" data-target="#carousel" data-slide-to="{{$index}}" ng-class="{active: $index==0}">
       </li>
-    </ul>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div ng-repeat="picture in TopFive" ng-class="{active: $index==0}" class="item">
+        <img ng-src="img/{{ picture.Url }}" alt="{{ picture.Name }}" style="margin-left: auto; margin-right: auto; height:400px;"/>
+        <div class="carousel-caption">
+          {{ picture.Name }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
   <div class="container">
