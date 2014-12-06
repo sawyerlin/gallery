@@ -8,7 +8,7 @@ galleryApp.directive('onLastRepeat', function () {
   }
 }).controller('HomeController', function($scope, $http) {
   $scope.$on('onRepeatLast', function(scope, element, attrs) {
-    $('#top').unslider();
+    $('#carousel').carousel();
   });
 
   $http.get('datas/home.json').success(function(data) {
