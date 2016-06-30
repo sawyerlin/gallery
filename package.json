@@ -13,6 +13,8 @@
   "author": "no author",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "http-server": "~0.7.3"
+    "http-server": "~0.7.3",
+    "grunt": "~1.0.1",
+    "grunt-exec": "~1.0.0"
   }
 }
